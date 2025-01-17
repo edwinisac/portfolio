@@ -1,0 +1,97 @@
+body{
+    background-image: url("./assets/freepik__the-style-is-candid-image-photography-with-natural__52724.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title1{
+    font-family:"Permanent Marker", serif;
+    font-size: 70px;
+    color: #F5EFE7;
+}
+.title2{
+    font-family:"Exo 2", serif;
+    font-size: 70px;
+    color: #F5EFE7;
+
+}
+.t1span{
+    color:#FFEB00;
+}
+.main{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+    padding-left: 50px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    padding-top:250px;
+    opacity: 0.2;
+}
+.aboutdiv{
+    background-color:rgb(62, 88, 121,0.5);
+    text-align: start;
+    margin:30px 120px;
+    height:40vh;
+    border-radius: 60px;
+}
+.abouttitle{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    color: #F5EFE7;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.aboutpara{
+    font-family: "Sansita", serif;
+    color:#F5EFE7;
+    font-size:30px ;
+}
+.abt{
+    padding-left: 40px;
+}
+.contentdiv{
+    background-color: rgb(106, 128, 185,0.5);
+    height: 127vh;
+    border-radius:60px;
+    margin:150px  120px 0px;
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+.contenttext{
+    background-color: rgb(255, 248, 243,0.2);
+    border-radius: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    width: 60%;
+    height: 35vh;
+    border: 5px solid #344CB7;
+}
+.head{
+    padding-left: 80px;
+    font-family: "Arvo", serif;
+    font-size: 40px;
+    color: #F5EFE7;
+}
+.contenttext p,li{
+    padding-left: 80px;
+    padding-right: 20px;
+    font-family: "Sansita", serif;
+    color: #fef536;
+    font-size: 30px;
+}
+#contentexp{
+    margin-right:0px;
+    margin-left:20px;
+ 
+}
