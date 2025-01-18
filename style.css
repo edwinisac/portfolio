@@ -7,11 +7,13 @@ body{
     font-family:"Permanent Marker", serif;
     font-size: 70px;
     color: #F5EFE7;
+    margin: 20px;
 }
 .title2{
     font-family:"Exo 2", serif;
     font-size: 70px;
     color: #F5EFE7;
+    padding-top: 50px;
 
 }
 .t1span{
@@ -82,6 +84,7 @@ body{
     font-family: "Arvo", serif;
     font-size: 40px;
     color: #F5EFE7;
+    padding-top: 20px;
 }
 .contenttext p,li{
     padding-left: 80px;
@@ -95,3 +98,34 @@ body{
     margin-left:20px;
  
 }
+#projects h1{
+    font-family: "Arvo",serif;
+    color: #F5EFE7;
+    font-size: 60px;
+} 
+.mainpc{
+    display: flex;
+    flex-direction: column;
+}
+.subpc{
+    /* background-color: white; */
+    width: 100%;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projectcards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px; 
+    justify-content: space-around;
+} 
+.card-body{
+    background-color: rgb(80, 0, 115,0.3);
+}
+.card img{
+    height: 30vh;
+}
+
