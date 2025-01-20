@@ -177,3 +177,165 @@ body{
     opacity: 1;
 }
 
+/* Large devices (laptops/desktops, 992px and below) */
+@media only screen and (max-width: 992px) {
+    .main {
+        gap: 100px;
+        padding-left: 20px;
+    }
+    
+    .title1 {
+        font-size: 50px;
+    }
+    
+    .title2 {
+        font-size: 50px;
+    }
+    
+    .aboutdiv {
+        margin: 30px 60px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .contentdiv {
+        margin: 150px 60px 0px;
+        height: auto;
+    }
+    
+    .contactme {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media only screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+        padding: 20px;
+    }
+    
+    .title1 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .title2 {
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    
+    .img {
+        padding-top: 50px;
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .aboutdiv {
+        margin: 30px 30px;
+    }
+    
+    .abouttitle {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    
+    .aboutpara {
+        font-size: 24px;
+    }
+    
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenttext {
+        width: 90%;
+        margin: 20px;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .head {
+        padding-left: 40px;
+        font-size: 32px;
+    }
+    
+    .contenttext p {
+        padding-left: 40px;
+        font-size: 24px;
+    }
+    
+    .contentimage img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .projectcards {
+        padding: 20px;
+    }
+    
+    .card {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    
+    .contactme {
+        width: 80%;
+    }
+}
+
+/* Small devices (phones, 576px and below) */
+@media only screen and (max-width: 576px) {
+    .title1 {
+        font-size: 32px;
+    }
+    
+    .title2 {
+        font-size: 32px;
+    }
+    
+    .abouttitle {
+        font-size: 32px;
+    }
+    
+    .aboutpara {
+        font-size: 20px;
+    }
+    
+    .head {
+        font-size: 28px;
+    }
+    
+    .contenttext p {
+        font-size: 20px;
+    }
+    
+    .resume h1 {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+    .contactme {
+        width: 90%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    .contactme h1 {
+        font-size: 32px;
+    }
+    
+    .icons {
+        flex-wrap: wrap;
+    }
+    
+    .icons i {
+        font-size: 32px !important;
+    }
+}
